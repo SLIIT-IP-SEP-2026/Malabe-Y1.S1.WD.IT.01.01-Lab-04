@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class IT26102630Lab4Q1 {
+	
+    public static void main(String[] args) {
+		
+		// Declare variables
+		int number;
+		String result;
+		
+		// Create a Scanner object to read input
+        Scanner input = new Scanner(System.in);
+		
+		// Prompt the user to enter a number
+        System.out.print("Enter a number: ");
+        number = input.nextInt();
+
+        // Determine whether the number is positive or negative using Ternary Operator
+       if (number > 0) {
+            System.out.println("The number is: Positive");
+        } else if (number < 0) {
+            System.out.println("The number is: Negative");
+        } else {
+            System.out.println("The number is Zero");
+        }
+
+      
+    }
+}
